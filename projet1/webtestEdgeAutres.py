@@ -20,7 +20,7 @@ try:
     username_input = driver.find_element("id", "username")  # recherche de l'element username par son ID
     password_input = driver.find_element("id", "password")  # recherche de l'element password par son ID
     # Étape 3 : Remplir le formulaire avec les valeurs réelles
-    username_input.send_keys("bilel")  # remplier le champs username
+    username_input.send_keys("emily")  # remplier le champs username
     password_input.send_keys("12345")  # remplier le champs password
     # Étape 4: Attendre une durée pour visualiser le remplissage du formulaire
     time.sleep(2) # temps d'attete de deux (2) secondes pour visualiser l'action
